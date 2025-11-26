@@ -83,13 +83,13 @@
 
 
 # 10
-# def work_with_list(a):
-#     mn = min(a)
-#     new_list =
-#     print(new_list)
-#
-# a = [5, 3, 7, 2]
-# work_with_list(a)
+def work_with_list(a):
+    mn = min(a)
+    new_list = mn * a
+    print(new_list)
+
+a = [5, 3, 7, 2]
+work_with_list(a)
 
 
 
@@ -120,15 +120,15 @@
 
 
 # 13
-def expensiveProduct(products):
-    most_expensive = max(products, key=lambda x: x["price"])
-    print("Eng qimmat telefon:", most_expensive["name"])
-
-products = [
-    {"name": "Iphone X", "price": 600},
-    {"name": "Iphone 12", "price": 1500},
-    {"name": "Samsung Note 9", "price": 800},
-    {"name": "Samsung S10", "price": 1100},
-]
-
-expensiveProduct(products)
+# def expensiveProduct(products):
+#     most_expensive = max(products, key=lambda x: x["price"])
+#     print("Eng qimmat telefon:", most_expensive["name"])
+#
+# products = [
+#     {"name": "Iphone X", "price": 600},
+#     {"name": "Iphone 12", "price": 1500},
+#     {"name": "Samsung Note 9", "price": 800},
+#     {"name": "Samsung S10", "price": 1100},
+# ]
+#
+# expensiveProduct(products)
